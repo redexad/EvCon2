@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">evaluacioncontinua2Ayasta</string>
+    <string name="text_name2">PC MASTER RACE</string>
+    <string name="text_name">WELCOME TO THE VIRTUAL LIBRARY OF PC COMPONENTS, GRAPHICS AND PROCESSORS WHERE YOU WILL FIND FROM NVIDIA, AMD, RYZEN AND INTEL WITH ALL THEIR PRICES IN DOLLARS ...</string>
+    <string name="button_login">Login</string>
+    <string name="button_sigh">Sigh Up</string>
+    <string name="text_name3">LOG IN:</string>
+    <string name="text_name4">or</string>
+    <string name="text_user">USERNAME</string>
+    <string name="text_pass">PASSWORD</string>
+    <string name="button_loginow">START SECTION NOW</string>
+    <string name="text_name5">You do not have an account?</string>
+    <string name="button_regist">Register now</string>
+    <string name="pass_error">the password must have more than 5 characteristics</string>
+    <string name="text_name6">or start section with</string>
 </resources>

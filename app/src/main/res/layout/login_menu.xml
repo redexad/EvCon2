@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/gris"
+    android:id="@+id/loginmenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingTop="16dp"
+        tools:ignore="ExtraText,MissingConstraints,UseCompoundDrawables">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/text_name3"
+            app:srcCompat="@drawable/pcc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/text_name3"
+
+            android:textAllCaps="true"
+            android:textColor="@color/loginBackgroundColor"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+
+            android:hint="@string/text_user"
+            android:textColorHint="@color/white"
+            app:boxCornerRadiusBottomEnd="25dp"
+            app:boxCornerRadiusBottomStart="25dp"
+            app:boxCornerRadiusTopEnd="25dp"
+            app:boxCornerRadiusTopStart="25dp"
+            app:boxBackgroundColor="@color/redb2"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:inputType="text"
+
+                android:maxLines="1"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/text_pass"
+            app:errorEnabled="true"
+            app:endIconMode="password_toggle"
+            android:textColorHint="@color/white"
+            app:boxCornerRadiusBottomEnd="25dp"
+            app:boxCornerRadiusBottomStart="25dp"
+            app:boxCornerRadiusTopEnd="25dp"
+            app:boxCornerRadiusTopStart="25dp"
+            app:boxBackgroundColor="@color/redb2"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+
+                android:inputType="textPassword"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_loginnow"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="1dp"
+                android:text="@string/button_loginow"
+                app:cornerRadius="20dp"
+                app:strokeColor="@color/white">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="70dp"
+
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginBottom="70dp"
+                    android:text="@string/text_name6"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="100dp"
+                    android:layout_marginTop="100dp"
+                    app:srcCompat="@drawable/facebook" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginHorizontal="200dp"
+                    android:layout_marginStart="203dp"
+                    android:layout_marginTop="104dp"
+
+                    app:srcCompat="@drawable/google" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/text_name5"
+                android:textColor="@color/white"
+
+                android:layout_marginTop="80dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_regi"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/button_regist"
+                android:layout_marginTop="0dp"
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
