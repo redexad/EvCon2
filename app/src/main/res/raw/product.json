@@ -1,0 +1,32 @@
+[
+  {
+    "name": "GTX 108TI",
+    "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "price": "$US46"
+  },
+  {
+    "name": "AMD Ryzen 5 3600",
+    "url": "https://images.unsplash.com/photo-1600348759986-dc35c2ec7743?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "price": "US$68"
+  },
+  {
+    "name": "AMD Ryzen 7 3700x",
+    "url": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "price": "US$75"
+  },
+  {
+    "name": "RTX 2080",
+    "url": "https://images.unsplash.com/photo-1591405351990-4726e331f141?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "price": "US$500"
+  },
+  {
+    "name": "CORE I9 I9-9900K",
+    "url":"https://images.unsplash.com/photo-1555616635-640b71bdb185?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "price": "US$43999"
+  },
+  {
+    "name": "CORE I5 I5 8600k",
+    "url": "https://apollo-virginia.akamaized.net/v1/files/tqihdpc7rod81-PE/image",
+    "price" : "US$257"
+  }
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pro_grid_sp">10dp</dimen>
+    <dimen name="pro_grid_spacing_s">10dp</dimen>
+    <dimen name="pro_card_image_height">220dp</dimen>
+    <dimen name="pro_grid_reveal_height">200dp</dimen>
+</resources>

@@ -13,4 +13,10 @@
     <string name="button_regist">Register now</string>
     <string name="pass_error">the password must have more than 5 characteristics</string>
     <string name="text_name6">or start section with</string>
+    <string name="text_name7">NVIDIA</string>
+    <string name="text_name8">AMD</string>
+    <string name="text_name9">RYZEN</string>
+    <string name="text_name10">INTEL</string>
+    <string name="product_title">Name</string>
+    <string name="product_price">Price</string>
 </resources>
