@@ -17,6 +17,6 @@
     <string name="text_name8">AMD</string>
     <string name="text_name9">RYZEN</string>
     <string name="text_name10">INTEL</string>
-    <string name="product_title">Name</string>
+    <string name="product_name">Name</string>
     <string name="product_price">Price</string>
 </resources>

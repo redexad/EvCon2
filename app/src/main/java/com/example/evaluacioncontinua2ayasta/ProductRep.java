@@ -9,13 +9,13 @@ import com.android.volley.toolbox.NetworkImageView;
 
 public class ProductRep extends  RecyclerView.ViewHolder{
     public NetworkImageView productImage;
-    public TextView productTitle;
+    public TextView productName;
     public TextView productPrice;
 
     public ProductRep(@NonNull View itemView){
         super(itemView);
         productImage = itemView.findViewById(R.id.product_image);
-        productTitle = itemView.findViewById(R.id.product_title);
+        productName = itemView.findViewById(R.id.product_name);
         productPrice = itemView.findViewById(R.id.product_price);
     }
  }

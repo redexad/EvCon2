@@ -26,12 +26,12 @@
             android:orientation="vertical"
             android:padding="16dp">
             <TextView
-                android:id="@+id/product_title"
+                android:id="@+id/product_name"
                 android:layout_width="300dp"
                 android:layout_height="40dp"
                 android:padding="2dp"
                 android:layout_marginTop="2dp"
-                android:text="@string/product_title"
+                android:text="@string/product_name"
                 android:textColor="@color/white"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
                 android:layout_marginHorizontal="12dp"/>

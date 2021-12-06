@@ -26,7 +26,7 @@ public class ProductMen extends RecyclerView.Adapter<ProductRep> {
     public void onBindViewHolder(@NonNull ProductRep holder, int position){
         if(productList != null && position < productList.size()){
             ProductGpc product = productList.get(position);
-            holder.productTitle.setText(product.name);
+            holder.productName.setText(product.name);
             holder.productPrice.setText(product.price);
             imageRequester.setImageFromUrl(holder.productImage, product.url);
         }
